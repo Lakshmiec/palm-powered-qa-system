@@ -7,3 +7,15 @@ This project  implements a question-answering system designed to streamline stud
 - **Streamlit**: Provides an interactive user interface for easy access and interaction.
 - **Google PaLM**: Employs Google PaLM for powerful language understanding and generation.
 
+### Ideal For:
+
+-> Educational institutions seeking to automate student support.
+-> Organizations aiming to leverage AI for efficient knowledge management.
+-> Developers interested in exploring LangChain, Streamlit, and PaLM for building interactive applications.
+
+### Get Started Today!
+
+1. Clone the repository.
+2. Install required libraries (refer to installation instructions).
+3. Configure LangChain and PaLM access.
+4. Run the application using Streamlit.
