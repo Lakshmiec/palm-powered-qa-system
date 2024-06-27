@@ -39,12 +39,12 @@ GOOGLE_API_KEY = "your-google-api-key"
     streamlit run main.py
     ```
 ## File Structure
-├── main.py # Streamlit app file
-├── palm_langchain_qa_system.py # Main logic for the QA system
-├── faqs_codebasics.csv # CSV file containing FAQs
-├── .env # Environment variables file
-├── requirements.txt # Python packages required
-└── README.md # This readme file
+├── main.py # Streamlit app file<br>
+├── palm_langchain_qa_system.py # Main logic for the QA system<br>
+├── faqs_codebasics.csv # CSV file containing FAQs<br>
+├── .env # Environment variables file<br>
+├── requirements.txt # Python packages required<br>
+└── README.md # This readme file<br>
 
 
 ## Detailed Explanation
@@ -80,9 +80,9 @@ GOOGLE_API_KEY = "your-google-api-key"
 
 ### Ideal For:
 
--> Educational institutions seeking to automate student support.\n
--> Organizations aiming to leverage AI for efficient knowledge management.
--> Developers interested in exploring LangChain, Streamlit, and PaLM for building interactive applications.
+-> Educational institutions seeking to automate student support.<br>
+-> Organizations aiming to leverage AI for efficient knowledge management.<br>
+-> Developers interested in exploring LangChain, Streamlit, and PaLM for building interactive applications.<br>
 
 ### Get Started Today!
 
