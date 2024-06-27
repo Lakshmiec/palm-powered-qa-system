@@ -2,7 +2,7 @@
 This project  implements a question-answering(QA) system designed to streamline student support for Codebasics. Built with LangChain, Hugging Face Streamlit, and Google PaLM, the system leverages cutting-edge AI to provide accurate and efficient answers to student inquiries directly on the Codebasics website.
 
 The system reads from a CSV file containing frequently asked questions (FAQs) and their corresponding answers, embeds the data using Hugging Face's instructor model, and stores the embeddings in a Chromadb vector store. The QA system then uses a retrieval mechanism to fetch the relevant answers based on user queries. The interface is built using Streamlit for easy interaction.
-
+![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/sree/palm-powered-qa-system_/image/Screenshot%202024-06-27%20at%2012.30.49%20AM.png?version%3D1719477166091)
 ## Demo
 
 Check out the live demo [here](https://palm-powered-app-system-jh78gqewwvg3y8qy6rvslc.streamlit.app/).
