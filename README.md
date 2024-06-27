@@ -3,7 +3,11 @@ This project  implements a question-answering(QA) system designed to streamline 
 
 The system reads from a CSV file containing frequently asked questions (FAQs) and their corresponding answers, embeds the data using Hugging Face's instructor model, and stores the embeddings in a Chromadb vector store. The QA system then uses a retrieval mechanism to fetch the relevant answers based on user queries. The interface is built using Streamlit for easy interaction.
 
-### 🎯 Key Features
+## Demo
+
+Check out the live demo [here](https://palm-powered-app-system-jh78gqewwvg3y8qy6rvslc.streamlit.app/).
+
+## 🎯 Key Features
 - **Google PaLM**: Employs Google PaLM for powerful language understanding and generation. It generates answers with controlled randomness.
 - **LangChain**: Utilizes LangChain for natural language processing tasks.
 - **Hugging Face Instruct Embeddings 🤗**: Uses the instructor model to embed the data for efficient retrieval.
