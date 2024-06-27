@@ -28,9 +28,9 @@ The system reads from a CSV file containing frequently asked questions (FAQs) an
 4. Set up environment variables:
    - Create a .env file in the root directory of your project.
    - Acquire an API key through makersuite.google.com and put it in .env file:
-```toml
-GOOGLE_API_KEY = "your-google-api-key"
-```
+  ```toml
+  GOOGLE_API_KEY = "your-google-api-key"
+  ```
 ## Usage
 
 1. Run the Streamlit app by executing:
@@ -39,12 +39,12 @@ GOOGLE_API_KEY = "your-google-api-key"
     streamlit run main.py
     ```
 ## File Structure
-├── main.py # Streamlit app file<br>
-├── palm_langchain_qa_system.py # Main logic for the QA system<br>
-├── faqs_codebasics.csv # CSV file containing FAQs<br>
-├── .env # Environment variables file<br>
-├── requirements.txt # Python packages required<br>
-└── README.md # This readme file<br>
+├── main.py                                   # Streamlit app file<br>
+├── palm_langchain_qa_system.py               # Main logic for the QA system<br>
+├── faqs_codebasics.csv                       # CSV file containing FAQs<br>
+├── .env                                      # Environment variables file<br>
+├── requirements.txt                          # Python packages required<br>
+└── README.md                                 # This readme file<br>
 
 
 ## Detailed Explanation
