@@ -7,7 +7,7 @@ The system reads from a CSV file containing frequently asked questions (FAQs) an
 - **Google PaLM**: Employs Google PaLM for powerful language understanding and generation. It generates answers with controlled randomness.
 - **LangChain**: Utilizes LangChain for natural language processing tasks.
 - **Hugging Face Instruct Embeddings 🤗**: Uses the instructor model to embed the data for efficient retrieval.
-- **Chroma Vector Store 🤗**:Stores the embeddings and retrieves them based on similarity scores.
+- **Chroma Vector Store 🤗**: Stores the embeddings and retrieves them based on similarity scores.
 - **Streamlit**: Provides an interactive user interface for easy access and interaction.
 
 ## Installation
@@ -17,13 +17,13 @@ The system reads from a CSV file containing frequently asked questions (FAQs) an
    git clone https://github.com/Lakshmiec/palm-powered-qa-system.git
   ```
 2. Navigate to the project repository :
-    ```bash
+  ```bash
   cd palm-powered-qa-system
   ```
 3. Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+   ```
 
 4. Set up environment variables:
    - Create a .env file in the root directory of your project.
@@ -35,7 +35,7 @@ GOOGLE_API_KEY = "your-google-api-key"
 
 1. Run the Streamlit app by executing:
 
-    ```
+    ```bash
     streamlit run main.py
     ```
 ## File Structure
@@ -80,7 +80,7 @@ GOOGLE_API_KEY = "your-google-api-key"
 
 ### Ideal For:
 
--> Educational institutions seeking to automate student support.
+-> Educational institutions seeking to automate student support.\n
 -> Organizations aiming to leverage AI for efficient knowledge management.
 -> Developers interested in exploring LangChain, Streamlit, and PaLM for building interactive applications.
 
