@@ -39,7 +39,7 @@ The system reads from a CSV file containing frequently asked questions (FAQs) an
     streamlit run main.py
     ```
 ## File Structure
-├── main.py             &nbsp;                      # Streamlit app file<br>
+├── main.py &nbsp;&nbsp;&nbsp; &nbsp;                      # Streamlit app file<br>
 ├── palm_langchain_qa_system.py               # Main logic for the QA system<br>
 ├── faqs_codebasics.csv                       # CSV file containing FAQs<br>
 ├── .env                                      # Environment variables file<br>
