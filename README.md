@@ -3,8 +3,8 @@ This project  implements a question-answering(QA) system designed to streamline 
 
 The system reads from a CSV file containing frequently asked questions (FAQs) and their corresponding answers, embeds the data using Hugging Face's instructor model, and stores the embeddings in a Chromadb vector store. The QA system then uses a retrieval mechanism to fetch the relevant answers based on user queries. The interface is built using Streamlit for easy interaction.
 
-![alt text]([https://github.com/Lakshmiec/palm-powered-qa-system/blob/main/image/Screenshot%20.png]
 
+<img width="1432" alt="Screenshot" src="https://github.com/Lakshmiec/palm-powered-qa-system/blob/main/image/Screenshot%20.png">
 
 ## Demo
 
